@@ -1,7 +1,9 @@
-x = 10
-y = 2
-z = x + y
+x:int = 10
+y:float = 10.5
+saludo:str = "Hola mundo" # Agregar una pista del tipo de dato
+estado:bool = True
 
 print(x)
-print(y)
-print(z)
+print(saludo)
+print(type(x)) # Saber el tipo de dato
+print(type(saludo))
