@@ -1,25 +1,9 @@
-operandoA = 3
-operandoB = 2
+miVariable = 10  # asignacion
 
-suma = operandoA + operandoB
+miVariable = miVariable + 1  # reasignacion
+miVariable += 1  # reasignacion de forma corta
 
-# print('El resultado de la suma es:', suma)
-print(f'El resultado de la suma es: {suma}')
+miVariable -= 2  # miVariable = miVariable - 2
 
-resta = operandoA - operandoB
-print(f'El resultado de la resta es: {resta}')
-
-multiplicacion = operandoA * operandoB
-print(f'El resultado de la multiplicación es: {multiplicacion}')
-
-division = operandoA / operandoB
-print(f'El resultado de la división es: {division}')
-
-division = operandoA // operandoB
-print(f'El resultado de la división (int) es: {division}')
-
-modulo = operandoA % operandoB
-print(f'Resultado residuo división (módulo) es: {modulo}')
-
-exponente = operandoA ** operandoB
-print(f'Resultado exponente: {exponente}')
+miVariable /= 2
+print(miVariable)
