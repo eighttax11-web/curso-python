@@ -1,9 +1,20 @@
-miVariable = 10  # asignacion
+a = 4
+b = 2
 
-miVariable = miVariable + 1  # reasignacion
-miVariable += 1  # reasignacion de forma corta
+resultado = a == b  # Igual
+print(f'Resultado == : {resultado}')
 
-miVariable -= 2  # miVariable = miVariable - 2
+resultado = a != b  # Diferente
+print(f'Resultado != : {resultado}')
 
-miVariable /= 2
-print(miVariable)
+resultado = a > b  # Mayor que
+print(f'Resultado > : {resultado}')
+
+resultado = a < b  # Menor que
+print(f'Resultado < : {resultado}')
+
+resultado = a >= b  # Mayor o igual que
+print(f'Resultado >= : {resultado}')
+
+resultado = a <= b  # Menor o igual que
+print(f'Resultado <= : {resultado}')
