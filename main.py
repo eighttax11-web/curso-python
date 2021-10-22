@@ -1,12 +1,4 @@
-# Tipos bool (boolean)
-
-miVariable = True
-print(miVariable)
-
-miVariable = 3 > 4
-print(miVariable)
-
-if miVariable:
-    print("El resultado es verdadero")
-else:
-    print("El resultado es falso")
+# Función input para procesar la entrada del usuario
+resultado = input("Escribe un mensaje: ")
+print("Valor proporcionado:", resultado)
+print("Fin del programa")
