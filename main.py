@@ -1,20 +1,16 @@
-a = 4
-b = 2
+a = True
+b = True
 
-resultado = a == b  # Igual
-print(f'Resultado == : {resultado}')
+resultado = a and b
+print(resultado)  # True
 
-resultado = a != b  # Diferente
-print(f'Resultado != : {resultado}')
+a = True
+b = False
+resultado = a and b
+print(resultado)  # False
 
-resultado = a > b  # Mayor que
-print(f'Resultado > : {resultado}')
+resultado = a or b
+print(resultado)  # True
 
-resultado = a < b  # Menor que
-print(f'Resultado < : {resultado}')
-
-resultado = a >= b  # Mayor o igual que
-print(f'Resultado >= : {resultado}')
-
-resultado = a <= b  # Menor o igual que
-print(f'Resultado <= : {resultado}')
+resultado = not a
+print(resultado)  # False
