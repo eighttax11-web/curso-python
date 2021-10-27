@@ -1,14 +1,6 @@
-# condicion = True
-#
-# while condicion:
-#     print('Ejecutando ciclo while')
-# else:
-#     print('Fin del ciclo while')
+cadena = 'hola'
 
-contador = 0
-
-while contador < 3:
-    print(contador)
-    contador += 1  # contador = contador + 1
+for letra in cadena:
+    print(letra)
 else:
-    print('Fin ciclo while')
+    print('Fin ciclo for')
