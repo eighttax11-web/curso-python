@@ -1,8 +1,8 @@
-condicion = 10
+condicion = True
 
-if condicion == True:
+if condicion:
     print('Condición verdadera')
-elif condicion == False:
-    print('Condición falsa')
 else:
-    print('Condición no reconocida')
+    print('Condición falsa')
+
+print('Condición verdadera') if condicion else print('Condición falsa')  # Operador ternario, usar solo si tenemos pocas lineas de codigo
