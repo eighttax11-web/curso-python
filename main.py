@@ -1,4 +1,4 @@
-condicion = 'hola'
+condicion = 10
 
 if condicion == True:
     print('Condición verdadera')
