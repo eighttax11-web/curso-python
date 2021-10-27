@@ -1,16 +1,8 @@
-a = True
-b = True
+condicion = 'hola'
 
-resultado = a and b
-print(resultado)  # True
-
-a = True
-b = False
-resultado = a and b
-print(resultado)  # False
-
-resultado = a or b
-print(resultado)  # True
-
-resultado = not a
-print(resultado)  # False
+if condicion == True:
+    print('Condición verdadera')
+elif condicion == False:
+    print('Condición falsa')
+else:
+    print('Condición no reconocida')
